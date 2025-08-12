@@ -50,10 +50,10 @@ Over the course of the internship, I explored a variety of datasets, applied mul
 ### **Task 3: Heart Disease Prediction**
 - **Dataset**: Heart Disease Prediction Dataset (Kaggle).
 - **Models Applied**:
-  - Decision Tree Classifier
+  - Decision Tree Classifier,Logistic Regression
 - **Objective**: Classify patients as at risk or not at risk of heart disease.
 - **Key Results**:
-  - Achieved high accuracy on test data.
+  - Achieved high accuracy on test data using Decision Tree.
   - Feature importance showed that attributes like cholesterol, age, and max heart rate were strong indicators.
 - **Findings**:
   - EDA revealed differences in key health metrics between heart disease patients and healthy individuals.
