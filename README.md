@@ -26,50 +26,103 @@ Over the course of the internship, I explored a variety of datasets, applied mul
 ## 📂 Tasks Overview
 
 ### **Task 1: Basic Data Exploration & Visualization**
-- Performed exploratory data analysis (EDA) on the **Iris Dataset**.
-- Used Matplotlib & Seaborn for visualizations (histograms, scatter plots, box plots).
-- Learned to identify trends and distributions in data.
+- **Dataset**: Iris Dataset (Kaggle)
+- **Objective**: Perform exploratory data analysis (EDA) and visualize feature relationships.
+- **Techniques Used**: Matplotlib & Seaborn for histograms, scatter plots, and pair plots.
+- **Findings**:
+  - Clear separation between Iris species in certain feature pairs.
+  - Petal length and petal width were strong distinguishing features.
 
 ---
 
 ### **Task 2: Apple Stock Price Prediction**
 - **Dataset**: Apple stock data fetched via `yfinance`.
+- **Objective**: Predict short-term closing prices for Apple (AAPL).
 - **Models Applied**:
-  - Random Forest Regressor
-  - Linear Regression
-- **Objective**: Predict short-term Apple stock closing prices.
-- **Key Results**:
-  - Random Forest MAE: ~0.94 USD, R²: ~0.85
-  - Linear Regression achieved slightly lower accuracy as 0.83.
+  - **Linear Regression**
+    - Score: **0.80**
+    - R²: **0.80**
+    - MAE: **1.3 USD**
+  - **Random Forest Regressor**
+    - Score: **0.80**
+    - R²: **0.80**
+    - MAE: **1.1 USD**
 - **Findings**:
-  - Random Forest captured short-term trends better.
-  - Visualization of predicted vs. actual prices showed a close fit.
+  - Both models achieved similar R², with Random Forest slightly reducing average error.
+  - Predictions followed the actual price trend well in short-term forecasting.
 
 ---
 
 ### **Task 3: Heart Disease Prediction**
 - **Dataset**: Heart Disease Prediction Dataset (Kaggle).
-- **Models Applied**:
-  - Decision Tree Classifier,Logistic Regression
 - **Objective**: Classify patients as at risk or not at risk of heart disease.
-- **Key Results**:
-  - Achieved high accuracy on test data using Decision Tree.
-  - Feature importance showed that attributes like cholesterol, age, and max heart rate were strong indicators.
+- **Models Applied**:
+  - **Decision Tree Classifier**
+    - Accuracy: **0.9854**
+    - Precision: **1.0**
+    - Recall: **0.9709**
+    - F1 Score: **0.9852**
+  - **Logistic Regression**
+    - Accuracy: **0.7902**
+    - Precision: **0.7542**
+    - Recall: **0.8641**
+    - F1 Score: **0.8054**
 - **Findings**:
-  - EDA revealed differences in key health metrics between heart disease patients and healthy individuals.
+  - Decision Tree achieved outstanding accuracy and perfect precision.
+  - Logistic Regression performed reasonably well but was less accurate than the Decision Tree.
 
 ---
 
 ### **Task 6: House Price Prediction**
 - **Dataset**: House Prices Dataset (Kaggle).
-- **Model Applied**:
-  - Linear Regression
 - **Objective**: Predict sale prices of houses based on various features.
-- **Key Results**:
-  - Model performed well on clean, numeric data after preprocessing.
+- **Model Applied**:
+  - **Linear Regression**
+    - R²: **0.75**
 - **Findings**:
-  - Location, overall quality, and living area size were the most influential factors.
+  - Model explained 75% of variance in prices.
+  - Location, overall quality, and living area size were key predictors.
 
 ---
 
+## 📊 Summary of Datasets
+| Task | Dataset Source | Problem Type | Target Variable |
+|------|----------------|--------------|-----------------|
+| Task 1 | Iris Dataset (Kaggle) | Classification (EDA only) | Species |
+| Task 2 | yfinance (AAPL) | Regression | Close Price |
+| Task 3 | Heart Disease Dataset (Kaggle) | Classification | Heart Disease Presence |
+| Task 6 | House Price Dataset (Kaggle) | Regression | Sale Price |
 
+---
+
+## 🚀 Key Learnings & Achievements
+- Learned to clean, preprocess, and visualize diverse datasets.
+- Gained experience with **Random Forest, Linear Regression, Decision Trees, and Logistic Regression**.
+- Improved skills in model evaluation using **MAE, R² score, Accuracy, Precision, Recall, and F1 score**.
+- Produced actionable insights like:
+  - Predicting short-term Apple stock movements.
+  - Identifying potential heart disease patients from health records.
+  - Estimating house prices for real estate purposes.
+
+---
+
+## 🏢 Organization
+**Developers Hub Corporation** – AI/ML Internship Program.
+
+---
+
+## 📈 Visual Highlights
+- Correlation heatmaps for feature relationships.
+- Predicted vs. actual plots for regression models.
+- Distribution plots for key features in classification problems.
+
+---
+
+## 💡 Future Work
+- Incorporate deep learning models for stock and image datasets.
+- Add feature engineering techniques for better predictive performance.
+- Automate EDA and report generation.
+
+---
+
+**Author**: Rajajunaid44  
