@@ -4,3 +4,6 @@ seaborn
 pandas
 yfinance
 numpy
+transformers
+langchain
+langchain_huggingface
